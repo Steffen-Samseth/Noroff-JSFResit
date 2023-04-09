@@ -35,11 +35,10 @@ export default function () {
         <>
           <div className={styles.firstRow}>
             <div className={styles.leftCell}>
-              {card.evolvesFrom && (
-                <div>
-                  Evolves from<h2>{card.evolvesFrom}</h2>
-                </div>
-              )}
+              <div>
+                Evolves from
+                <h2>{card.evolvesFrom || "-"}</h2>
+              </div>
             </div>
             <div className={styles.middleCell}>
               {card.nationalPokedexNumbers && (
@@ -98,11 +97,10 @@ export default function () {
               </button>
             </div>
             <div className={styles.rightCell}>
-              {card.evolvesTo && (
-                <div>
-                  Evolves to<h2>{card.evolvesTo}</h2>
-                </div>
-              )}
+              <div>
+                Evolves to
+                <h2>{card.evolvesTo || "-"}</h2>
+              </div>
             </div>
           </div>
         </>
