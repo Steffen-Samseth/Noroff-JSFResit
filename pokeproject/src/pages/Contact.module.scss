@@ -1,0 +1,13 @@
+.form {
+  max-width: 50%;
+  margin: 4rem auto;
+  input,
+  textarea {
+    border-radius: 0.25rem;
+  }
+}
+
+.reactSelect {
+  margin-top: calc(var(--spacing) * 0.25);
+  margin-bottom: var(--spacing);
+}

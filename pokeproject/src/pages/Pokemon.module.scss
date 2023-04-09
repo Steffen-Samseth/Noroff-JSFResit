@@ -1,0 +1,62 @@
+h2 {
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.title {
+  margin: 2rem;
+}
+
+.imageWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.viewMoreButton {
+  max-width: 600px;
+}
+
+.firstRow {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftCell {
+  width: 20%;
+  padding-left: 1rem;
+}
+
+.middleCell {
+  width: 60%;
+}
+
+.generalInfo {
+  margin-left: 1rem;
+}
+
+.abilities {
+  margin: 1rem 0rem;
+  div {
+    margin: 0.4rem 0rem 0.4rem 1rem;
+  }
+}
+
+.attacks {
+  margin: 1rem 0rem;
+  div {
+    margin: 0.4rem 0rem 0.4rem 1rem;
+  }
+}
+
+.cardNumber {
+  margin-bottom: 1rem;
+  div {
+    margin: 0.4rem 0rem 0.4rem 1rem;
+  }
+}
+
+.rightCell {
+  width: 20%;
+  padding-right: 1rem;
+}

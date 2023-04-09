@@ -1,0 +1,58 @@
+@use "sass:color";
+
+:root {
+  font-size: 16px;
+}
+
+::selection {
+  background: #ffcb05;
+  color: black;
+}
+
+html {
+  background-color: #2a75bb;
+}
+
+body {
+  background-color: #1964aa;
+  max-width: 992px;
+  margin: 0px auto;
+  min-height: 100vh;
+  box-shadow: 0px 5px 2px 5px #1964aa;
+
+  font-family: sans-serif;
+  color: var(--color);
+
+  --color: white;
+  --h1-color: white;
+  --form-element-background-color: white;
+  --form-element-active-background-color: white;
+  --font-size: 1rem;
+
+  --primary: #e4000f;
+  --primary-hover: #{color.scale(#e4000f, $lightness: 10%)};
+  --primary-focus: #{color.scale(#e4000f, $lightness: 10%)};
+}
+
+main {
+  min-height: calc(100vh - 3rem - 2rem);
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 2rem;
+  padding-left: 1rem;
+  font-size: 0.7rem;
+  opacity: 80%;
+}
+
+.react-select {
+  color: black;
+
+  input {
+    --box-shadow: none !important;
+    height: 2.4rem !important;
+  }
+}
