@@ -17,7 +17,6 @@ export default function () {
 
   return (
     <>
-      <div> The current ID is : {id}</div>
       <div>
         <h1 className={styles.title}>{card.name}</h1>
         <div className={styles.imageWrapper}>
